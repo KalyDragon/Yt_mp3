@@ -13,10 +13,11 @@ if ! command -v pipx > /dev/null; then
 fi
 
 # Vérifier si yt-dlp est installé
-if ! command -v yt-dlp > /dev/null; then
+if ! pipx list | grep -q "package yt-dlp"; then
   echo "yt-dlp n'est pas installé. Installation en cours..."
   pipx install yt-dlp
   echo "yt-dlp a été installé avec succès."
+fi
 
 # Définir le répertoire de téléchargement
 DOWNLOAD_DIR="$HOME/Téléchargements"
