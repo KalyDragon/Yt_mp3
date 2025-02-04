@@ -30,7 +30,8 @@ chmod +x youtube_audio_downloader.sh
 Exécute le script :
 
 ./youtube_audio_downloader.sh <URL YouTube>
-Utilisation 🚀
+
+## Utilisation 🚀
 Commande de base
 ./youtube_audio_downloader.sh <URL YouTube>
 Options
@@ -42,7 +43,8 @@ Fichier cookies : Si tu as un fichier cookies.txt pour accéder à des contenus 
 Télécharger l'audio d'une vidéo YouTube :
 
 ./youtube_audio_downloader.sh https://www.youtube.com/watch?v=hswqVIDA_Kc
-Fonctionnement du script ⚙️
+
+## Fonctionnement du script ⚙️
 Vérification des dépendances :
 
 Le script vérifie si pipx et yt-dlp sont installés. Si ce n'est pas le cas, il les installe automatiquement.
@@ -67,7 +69,7 @@ Si tu as un fichier cookies.txt, définis son chemin dans la variable COOKIES_FI
 User-Agent :
 Tu peux modifier la variable USER_AGENT pour utiliser un autre agent utilisateur.
 
-Messages d'erreur courants ❌
+## Messages d'erreur courants ❌
 yt-dlp n'est pas accessible :
 Assure-toi que pipx est correctement installé et que le chemin $HOME/.local/bin est inclus dans ton PATH.
 
@@ -82,9 +84,9 @@ Permettre de télécharger plusieurs URLs en une seule commande.
 Ajouter une option pour spécifier un répertoire de téléchargement personnalisé via la ligne de commande.
 
 ## Auteur 👤
-Nom : [Ton nom]
+Nom : KalyDragon
 
-Contact : [Ton email ou GitHub]
+Contact : lolokea4@gmail.com
 
 ## Licence 📜
 Ce projet est sous licence MIT. N'hésite pas à le modifier et à l'utiliser selon tes besoins.
