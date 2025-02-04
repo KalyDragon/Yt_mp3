@@ -1,7 +1,7 @@
-YouTube Audio Downloader 🎵
+#YouTube Audio Downloader 🎵
 Ce script Bash permet de télécharger l'audio d'une vidéo YouTube au format MP3 en utilisant yt-dlp. Il vérifie et installe automatiquement les dépendances nécessaires (pipx et yt-dlp) si elles ne sont pas déjà installées.
 
-Fonctionnalités ✨
+##Fonctionnalités ✨
 Télécharge l'audio d'une vidéo YouTube au format MP3.
 
 Vérifie et installe automatiquement pipx et yt-dlp si nécessaire.
@@ -12,7 +12,7 @@ Affiche des messages colorés et en gras pour une meilleure lisibilité.
 
 Enregistre les fichiers téléchargés dans le dossier Téléchargements de l'utilisateur.
 
-Prérequis 📋
+##Prérequis 📋
 Bash : Le script est conçu pour fonctionner dans un environnement Bash.
 
 pipx : Utilisé pour installer yt-dlp de manière isolée.
@@ -93,3 +93,6 @@ Auteur 👤
 Nom : [Ton nom]
 
 Contact : [Ton email ou GitHub]
+
+Licence 📜
+Ce projet est sous licence MIT. N'hésite pas à le modifier et à l'utiliser selon tes besoins.
