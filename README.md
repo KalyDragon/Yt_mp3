@@ -1,7 +1,7 @@
-#YouTube Audio Downloader 🎵
+# YouTube Audio Downloader 🎵
 Ce script Bash permet de télécharger l'audio d'une vidéo YouTube au format MP3 en utilisant yt-dlp. Il vérifie et installe automatiquement les dépendances nécessaires (pipx et yt-dlp) si elles ne sont pas déjà installées.
 
-##Fonctionnalités ✨
+## Fonctionnalités ✨
 Télécharge l'audio d'une vidéo YouTube au format MP3.
 
 Vérifie et installe automatiquement pipx et yt-dlp si nécessaire.
@@ -12,43 +12,35 @@ Affiche des messages colorés et en gras pour une meilleure lisibilité.
 
 Enregistre les fichiers téléchargés dans le dossier Téléchargements de l'utilisateur.
 
-##Prérequis 📋
+## Prérequis 📋
 Bash : Le script est conçu pour fonctionner dans un environnement Bash.
 
 pipx : Utilisé pour installer yt-dlp de manière isolée.
 
 yt-dlp : Outil de téléchargement de vidéos YouTube.
 
-Installation 🛠️
+## Installation 🛠️
 Télécharge le script :
 
 Copie le script dans un fichier, par exemple youtube_audio_downloader.sh.
 
 Rends le script exécutable :
 
-bash
-Copy
 chmod +x youtube_audio_downloader.sh
 Exécute le script :
 
-bash
-Copy
 ./youtube_audio_downloader.sh <URL YouTube>
 Utilisation 🚀
 Commande de base
-bash
-Copy
 ./youtube_audio_downloader.sh <URL YouTube>
 Options
 URL YouTube : L'URL de la vidéo YouTube dont tu souhaites télécharger l'audio.
 
 Fichier cookies : Si tu as un fichier cookies.txt pour accéder à des contenus restreints, modifie la variable COOKIES_FILE dans le script pour pointer vers ton fichier.
 
-Exemple 📥
+## Exemple 📥
 Télécharger l'audio d'une vidéo YouTube :
 
-bash
-Copy
 ./youtube_audio_downloader.sh https://www.youtube.com/watch?v=hswqVIDA_Kc
 Fonctionnement du script ⚙️
 Vérification des dépendances :
@@ -65,7 +57,7 @@ Messages colorés :
 
 Les messages de progression et de succès/échec sont affichés en gras et en couleur pour une meilleure lisibilité.
 
-Personnalisation 🎨
+## Personnalisation 🎨
 Répertoire de téléchargement :
 Modifie la variable DOWNLOAD_DIR dans le script pour changer le dossier de destination des fichiers téléchargés.
 
@@ -82,17 +74,17 @@ Assure-toi que pipx est correctement installé et que le chemin $HOME/.local/bin
 Usage : ./youtube_audio_downloader.sh <URL YouTube> :
 Tu as oublié de fournir l'URL de la vidéo YouTube en argument.
 
-Améliorations possibles 🔧
+## Améliorations possibles 🔧
 Ajouter une option pour choisir le format de sortie (MP3, AAC, etc.).
 
 Permettre de télécharger plusieurs URLs en une seule commande.
 
 Ajouter une option pour spécifier un répertoire de téléchargement personnalisé via la ligne de commande.
 
-Auteur 👤
+## Auteur 👤
 Nom : [Ton nom]
 
 Contact : [Ton email ou GitHub]
 
-Licence 📜
+## Licence 📜
 Ce projet est sous licence MIT. N'hésite pas à le modifier et à l'utiliser selon tes besoins.
